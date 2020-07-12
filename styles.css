@@ -1,13 +1,10 @@
 .navigation {
-    border: 1px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    position: sticky;
+    top: 0; 
+    z-index: 100;
 }
 
-.nav-items {
-    border: 1px solid black;
+.nav-items {    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -17,5 +14,5 @@
 .nav-items p {
     margin: 0;
     padding: 0;
-    padding-right: 2em;
 }
+
