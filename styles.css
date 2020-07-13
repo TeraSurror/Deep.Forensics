@@ -66,3 +66,21 @@ a:hover{
     padding: 5em 0;
     color: #fff;
 }
+
+@media all and (max-width: 480px) { 
+    *{
+        text-align: center;
+    }
+
+    .card {
+        margin-top: 1em;
+    }
+
+    .btn-custom {
+        margin: 0 auto;
+    }
+
+    .btn-custom-border {
+        margin: 0 auto;
+    }
+}
